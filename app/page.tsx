@@ -121,12 +121,12 @@ export default function Home() {
 						Workshop Pictures
 					</h1>
 				</div>
-				<div className="min-h-[80vh] bg-[#20633B] pb-[15vh]">
+				<div className="min-h-[80vh] bg-[#20633B]">
 					<img src="another2.png" alt="" className="w-[105vw] left-[-5vw]" />
 					<h1 className="wim text-[20vh] text-white w-fit leading-[20vh] mx-auto ml-[5vw] relative">
 						Blinky Kit Contains
 					</h1>
-					<div className="grid grid-cols-3 w-[90vw] mx-auto gap-[2vw] mt-[2vh]">
+					<div className="grid grid-cols-3 w-[90vw] mx-auto gap-[2vw] mt-[2vh] pb-[5vh]">
 						{[
 							"10x Blue LED's",
 							"10x Green LED's",
@@ -156,6 +156,8 @@ export default function Home() {
 							</div>
 						))}
 					</div>
+					<img src="/another4.png" className="w-full" alt="" />
+					<img src="/footer2.png" className="w-full" alt="" />
 				</div>
 			</div>
 		</div>
