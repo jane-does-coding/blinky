@@ -1,65 +1,73 @@
 import Image from "next/image";
 
 export default function Home() {
-  return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
-  );
+	return (
+		<div className="">
+			<img src="/bg3.jpg" className="w-full absolute top-[-25vh]" alt="" />
+			<div className="h-[50vh] bg-[#1e2f23]"></div>
+			<div className="flex flex-col items-center justify-center absolute top-[15vh] left-[5vw] bg-red-300/0">
+				<h1 className="wim text-[25vh] text-white leading-[25vh] mx-auto">
+					Blinker
+				</h1>
+				<div className="flex flex-col gap-[2vh] items-end justify-center bg-violet-300/0 w-[32.5vw]">
+					<div className="flex relative group min-h-[5vh]">
+						<div className="bg-black px-[2vw] py-[0.75vh] wim text-[4vh] leading-[4vh] absolute z-0 top-[0.95vh] right-0">
+							Run a Blinky workshop for your Club
+						</div>
+						<button
+							className="bg-white px-[2vw] py-[0.75vh] wim text-[4vh] leading-[4vh] z-10 mr-[0.5vw] group-hover:translate-y-[0.5vh] group-hover:mr-[0.25vw]
+ cursor-pointer transition-all ease-in-out "
+						>
+							Run a Blinky workshop for your Club
+						</button>
+					</div>
+					<div className="flex relative group min-h-[5vh]">
+						<div className="bg-black px-[2vw] py-[0.75vh] wim text-[4vh] leading-[4vh] absolute z-0 top-[0.95vh] right-0">
+							Join a Blinky workshop
+						</div>
+						<button className="bg-white px-[2vw] py-[0.75vh] wim text-[4vh] leading-[4vh] z-10 mr-[0.5vw] group-hover:mt-[0.5vh] group-hover:mr-[0.25vw] cursor-pointer transition-all ease-in-out ">
+							Join a Blinky workshop
+						</button>
+					</div>
+				</div>
+			</div>
+
+			{/* Navbar */}
+			<div className="bg-[#000000] h-[7.5vh] w-[30vw] fixed top-[1.5vh] left-[28.5vw] wim text-[4vh] leading-[4vh]"></div>
+			<div className="bg-[#1c2d4d] h-[7.5vh] w-[30vw] fixed top-[0.75vh] left-[28vw] wim text-[4vh] leading-[4vh] flex items-center justify-start">
+				<img src="/hack-club.png" className="w-[6.5vw]" alt="" />
+				<a href="/" className="text-white text-[3vh] pl-[1vw] wim">
+					Some Link
+				</a>
+				<a href="/" className="text-white text-[3vh] pl-[2vw] wim">
+					Some Link
+				</a>
+				<a href="/" className="text-white text-[3vh] pl-[2vw] wim">
+					Some Link
+				</a>
+			</div>
+			<div className="fixed top-[0.75vh] left-[59.5vw]">
+				{/* when changing the text, change the width around to align */}
+				<div className="flex relative group min-h-[6vh] w-[11.25vw] items-center justify-center">
+					<div className="bg-black px-[2vw] py-[0.75vh] wim text-[4vh] leading-[4vh] absolute z-0 top-[0.75vh] right-0 h-[7.5vh]">
+						A BUTTON
+					</div>
+					<button className="bg-white px-[2vw] py-[0.75vh] wim text-[4vh] leading-[4vh] z-10 mr-[0.5vw] group-hover:translate-x-[0.25vh] group-hover:translate-y-[0.5vh] group-hover:mr-[0.25vw] h-[7.5vh] cursor-pointer transition-all ease-in-out ">
+						A BUTTON
+					</button>
+				</div>
+			</div>
+
+			<div className="absolute top-[15vh] rotate-10 right-[40vw]">
+				<img
+					src="/example.png"
+					className="w-[20vw] drop-shadow-2xl drop-shadow-black/30"
+					alt=""
+				/>
+			</div>
+
+			{/*  */}
+			<div className="h-[80vh] bg-[#193023] mt-[52.5vh] w-full"></div>
+		</div>
+	);
 }
