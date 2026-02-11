@@ -31,7 +31,7 @@ const Contains = () => {
 				].map((item, i) => (
 					<div
 						key={i}
-						className="w-full bg-neutral-100 text-[3.5vh] 2xl:text-[4vh] wim py-[1vh] px-[2vw] relative border-[0.45vh] border-black/0 font-semibold tracking-[0.15vh]"
+						className="w-full bg-neutral-100 text-[2vh] 2xl:text-[2.25vh] py-[1vh] px-[2vw] relative border-[0.45vh] border-black/0 font-semibold tracking-[0.15vh]"
 					>
 						{/* corners */}
 						<div className="absolute w-[0.9vh] h-[0.9vh] bg-[#20633B] top-[-0.5vh] left-[-0.5vh] border-b-[0.45vh] border-r-[0.45vh] border-black/0"></div>
