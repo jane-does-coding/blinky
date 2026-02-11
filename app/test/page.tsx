@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
 	return (
 		<div className="">
-			<img src="/image3.png" className="w-full absolute top-[-20vh]" alt="" />
+			<img src="/bg.png" className="w-full absolute top-[-20vh]" alt="" />
 			<div className="h-[50vh] bg-[#1e2f23]"></div>
 			<div className="flex flex-col items-center justify-center absolute top-[15vh] left-[5vw] bg-red-300/0">
 				<h1 className="wim text-[25vh] text-white leading-[25vh] mx-auto">
