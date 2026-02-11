@@ -2,7 +2,7 @@ import React from "react";
 
 const Pictures = () => {
 	return (
-		<section className=" bg-[#1e2f23] pb-[17.5vh] pt-[15vh] relative">
+		<section className=" bg-[#1e2f23] pb-[17.5vh] pt-[13vh] relative">
 			<div className="flex items-center justify-center gap-[2vh] h-[40vh] min-w-fit group relative">
 				<img
 					src="/workshop1.png"

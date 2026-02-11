@@ -1,3 +1,4 @@
+import Contains from "./components/Contains";
 import Landing from "./components/Landing";
 import Navbar from "./components/Navbar";
 import Pictures from "./components/Pictures";
@@ -8,6 +9,7 @@ const page = () => {
 			<Navbar />
 			<Landing />
 			<Pictures />
+			<Contains />
 		</div>
 	);
 };
