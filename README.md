@@ -1,4 +1,4 @@
-# Blinky
+# Blinky - my local copy
 
 ## Colors:
 
