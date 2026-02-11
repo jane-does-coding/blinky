@@ -158,6 +158,9 @@ export default function Home() {
 					</div>
 					<img src="/another4.png" className="w-full" alt="" />
 					<img src="/footer2.png" className="w-full" alt="" />
+					<div className="absolute bottom-[0.35vh] tracking-[0.1vh] left-[50%] translate-x-[-50%] wim text-white text-[3.5vh]">
+						Made with love by Hack Clubbers
+					</div>
 				</div>
 			</div>
 		</div>
