@@ -8,8 +8,6 @@ const page = () => {
 		<div className="min-h-screen w-full">
 			<Navbar />
 			<Landing />
-			<Pictures />
-			<Contains />
 		</div>
 	);
 };
