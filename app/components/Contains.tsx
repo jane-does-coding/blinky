@@ -46,7 +46,7 @@ const Contains = () => {
 			{/* transition image */}
 			<img src="/transition2.png" className="w-full" alt="transition image" />
 			<h1 className="text-white text-[20vh] wim absolute bottom-[20vh] left-[5vw]">
-				Blinker
+				Tinker
 			</h1>
 			{/* Footer */}
 			<img src="/footer.png" className="w-full" alt="footer background" />

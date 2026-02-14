@@ -7,7 +7,7 @@ export default function Home() {
 			<div className="h-[50vh] bg-[#1e2f23]"></div>
 			<div className="flex flex-col items-center justify-center absolute top-[15vh] left-[5vw] bg-red-300/0">
 				<h1 className="wim text-[25vh] text-white leading-[25vh] mx-auto">
-					Blinker
+					Tinker
 				</h1>
 				<div className="flex flex-col gap-[2vh] items-end justify-center bg-violet-300/0 w-[32.5vw]">
 					<div className="flex relative group min-h-[5vh]">
